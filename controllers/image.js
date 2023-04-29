@@ -1,8 +1,8 @@
 // API_Request to Clarify API to get Face Recognition
-const PAT = process.env.CLARIFAI_PAT;
+
 const returnClarifaiRequestOptions = (imageUrl) => {
   // Your PAT (Personal Access Token) can be found in the portal under Authentification
-  
+  const PAT = process.env.CLARIFAI_PAT;
   // Specify the correct user_id/app_id pairings
   // Since you're making inferences outside your app's scope
   const USER_ID = "alexholad";
